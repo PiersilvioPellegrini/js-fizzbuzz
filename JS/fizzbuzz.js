@@ -23,6 +23,11 @@ let getFizzBuzz = function () {
       const buzz = document.getElementById("buzz");
       buzz.innerHTML += `${i} è BUZZ <br>`;
     }
+    else{
+        console.log(i);
+        const number = document.getElementById("number");
+        number.innerHTML += `${i} NON è DIVISIBILE PE UNO DEI VALORI INSERITI <br>`;
+    }
   }
 };
 // richimao la funzione
